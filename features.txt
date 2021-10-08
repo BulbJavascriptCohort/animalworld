@@ -1,0 +1,7 @@
+1) Search for animals
+2) each route should have the list of animals
+
+animalworld.com/dogs/bingo animalworld.com/dogs/golden-retriver 
+animalworld.com/cats animalworld.com/cats/black
+
+3)

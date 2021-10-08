@@ -1,24 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 
+import SheepList from './components/Sheep';
+import CatList from './components/Cats';
+import ElephantList from './components/Elephants';
+import Menu from "./components/Menu"
+// BrowserRouter :  that keeps track of everything going on in the app
+// Switch : to replace the new component with old one
+// Route : where we specify the linking
+// Link : < a > </a> 
+
+// content
+// how to navigate the content
+
+// url ==> Link ===> route ===> switch 
+// route resolves resolution
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+          <h1> This is the Animal World</h1>
+
+          <ul>
+            <li><Link to="/sheep">Sheep </Link></li>
+            <li><Link to="/cat">  Cat </Link> </li>
+            <li><Link to="/elephant"> Elephant </Link> </li>
+            <li><Link to="/menu"> Menu </Link> </li>
+          </ul>
+
+
+
+          <Switch>
+            <Route path="/sheep">
+              <SheepList />
+            </Route>
+            <Route path="/cat">
+              <CatList />
+            </Route>
+            <Route path="/elephant">
+              <ElephantList />
+            </Route>
+            <Route path="/menu">
+              <Menu />
+            </Route>
+          </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
