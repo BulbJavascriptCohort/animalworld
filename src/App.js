@@ -4,6 +4,7 @@ import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import SheepList from './components/Sheep';
 import CatList from './components/Cats';
 import ElephantList from './components/Elephants';
+import EagleList from './components/Eagle';
 import Menu from "./components/Menu"
 // BrowserRouter :  that keeps track of everything going on in the app
 // Switch : to replace the new component with old one
@@ -25,6 +26,7 @@ function App() {
             <li><Link to="/sheep">Sheep </Link></li>
             <li><Link to="/cat">  Cat </Link> </li>
             <li><Link to="/elephant"> Elephant </Link> </li>
+            <li><Link to="/eagle">Eagle</Link></li>
             <li><Link to="/menu"> Menu </Link> </li>
           </ul>
 
@@ -39,6 +41,9 @@ function App() {
             </Route>
             <Route path="/elephant">
               <ElephantList />
+            </Route>
+            <Route path="/eagle">
+              <EagleList />
             </Route>
             <Route path="/menu">
               <Menu />
