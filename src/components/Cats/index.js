@@ -22,7 +22,7 @@ function CatList(){
             setBreeds(data)
             console.log(breeds)
         })
-    }, [breeds])
+    })
 
     return(
         <section>
@@ -30,8 +30,8 @@ function CatList(){
 
             <h1>Cat</h1>
             {/* <img alt="cat" src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" ></img> */}
-
-            {breeds.map( item => <p>{item.name} {item.origin}</p>)}
+            
+            {breeds !== null ? breeds.map( item => <p>{item.name} {item.origin}</p>) : <p></p>}
 
         </section>
     )
