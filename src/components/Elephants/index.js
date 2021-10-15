@@ -1,6 +1,4 @@
-import {Link} from 'react-router-dom'
-import {Accordion, Link as L, Box, Text, Modal, Container,Center, Spacer, Flex, Image} from '@chakra-ui/react'
-import { ImFire, ImStarEmpty, ImStarFull } from 'react-icons/im';
+import { Container,Center, Spacer, Flex, Image} from '@chakra-ui/react'
 import Item from "../MenuItem";
 function ElephantList(){
     return(

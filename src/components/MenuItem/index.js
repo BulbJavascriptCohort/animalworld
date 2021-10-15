@@ -1,5 +1,5 @@
 
-import {Accordion, Link as L, Box, Text, Center,  Flex, Image} from '@chakra-ui/react'
+import {Link as L, Box, Text, Center,  Flex, Image} from '@chakra-ui/react'
 import { ImFire, ImStarEmpty, ImStarFull } from 'react-icons/im';
 
 
