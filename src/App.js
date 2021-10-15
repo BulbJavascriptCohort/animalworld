@@ -4,13 +4,8 @@ import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 import SheepList from './components/Sheep';
 import CatList from './components/Cats';
 import ElephantList from './components/Elephants';
-<<<<<<< HEAD
 import EagleList from './components/Eagle';
 import Menu from "./components/Menu"
-=======
-import Menu from "./components/Menu";
-import Ant from './components/Ant' ;
->>>>>>> 63ac891a94a00c00f25056ccf5abb72b3044bada
 // BrowserRouter :  that keeps track of everything going on in the app
 // Switch : to replace the new component with old one
 // Route : where we specify the linking
