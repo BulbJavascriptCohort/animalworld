@@ -432,7 +432,7 @@ let local =  [
       "sponsorship": {
         "impression_urls": [
           "https://ad.doubleclick.net/ddm/trackimpi/N1224323.3286893UNSPLASH/B25600467.307237436;dc_trk_aid=499798874;dc_trk_cid=152966934;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=?",
-          "https://tag.researchnow.com/t/beacon?pr=285833&adn=1&ca=25600467&si=6303199&pl=307237436&cr=152966934&did=176&ord=[timestamp]&gdpr=${GDPR}&gdpr_consent=${GDPR_CONSENT_110}&us_privacy=${US_PRIVACY}",
+          "https://tag.researchnow.com/t/beacon?pr=285833&adn=1&ca=25600467&si=6303199&pl=307237436&cr=152966934&did=176&ord=[timestamp]&gdpr=GDPR&gdpr_consent=GDPR_CONSENT_110&us_privacy=${US_PRIVACY",
           "https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=8967590&rnd=[timestamp]&redir=https://secure.insightexpressai.com/adserver/1pixel.gif"
         ],
         "tagline": "For Growing Businesses",
